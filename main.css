@@ -1,0 +1,29 @@
+/* global decoration */
+body {
+    text-align: center;
+}
+
+/* header decoration */
+h1 {
+    text-decoration: underline;
+}
+#toDoInput {
+    width: 300px;
+    height: 20px;
+    margin: auto;
+}
+#add {
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+}
+/* list decoration */
+ol {
+    list-style-position: inside;
+
+}
+ol li {
+    cursor: pointer;
+    width: 300px;
+    margin: 10px auto;
+}
