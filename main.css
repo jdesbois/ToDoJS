@@ -3,6 +3,10 @@ body {
     text-align: center;
     background-color: #4cb5e3;
 }
+#container {
+    width: 500px;
+    margin: auto;
+}
 
 /* header decoration */
 h1 {
@@ -11,29 +15,38 @@ h1 {
     color: white;
 }
 #toDoInput {
+    padding: 5px;
     width: 300px;
     height: 20px;
-    margin: 10px auto;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
 }
 #add {
     width: 50px;
     height: 50px;
-    margin: 10px auto;
+    margin-top: 5px;
 }
+
 /* list decoration */
 ul {
-    width: 500px;
-    margin: 10px auto;
+    width: 250px;
+    display: block;
     list-style: none;
+    list-style-image: none;
+    list-style-position: inside;
+    padding: 0;
+    margin: 25px auto;
 }
 ul li {
-    text-align: left;
+    height: 20px;
+    margin-top: 5px;
     cursor: pointer;
-    width: 200px;
-    margin: 5px auto;
-    padding: 5px;
     background-color: white;
     border: 1px solid grey;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
 }
 .done {
     border: 1px solid green;
