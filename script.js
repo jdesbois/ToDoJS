@@ -21,5 +21,7 @@ function addToDoItem() {
 };
 //remove selected item
 function finishToDo() {
-    event.target.remove(this);
+    let currentLi = event.target;
+    event.target.setAttribute('class', 'done');
+    setTimeout(function(){currentLi.remove()}, 1000);
 }
